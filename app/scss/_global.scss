@@ -11,7 +11,6 @@ html{
 a{
     display: inline-block;
     text-decoration: none;
-    color: $text;
 }
 
 ul,
@@ -62,14 +61,16 @@ select {
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    line-height: 1.6;
-    font-weight: 400;
-    color: $text;
-    overflow-x: hidden;
-    padding: 0;
-    margin: 0;
+   // font-family: 'Raleway', sans-serif;
+   // font-family: 'Aclonica', sans-serif;
+   // font-family: 'Montserrat', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   // font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   line-height: 1.6;
+   font-weight: 400;
+   padding: 0;
+   margin: 0;
 }
 
 .container{
