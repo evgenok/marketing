@@ -184,7 +184,7 @@ body{
 .magic {
    background: url(../images/magic/magic.jpg) no-repeat;
    background-size: 50%;
-   background-position: left 300%;
+   background-position: left 100%;
    background-color: $bg;
 }
 .magic__inner {
@@ -210,15 +210,58 @@ body{
    margin-bottom: 100px;
 }
 .porfolio__filter-btn {
+   margin-right: 40px;
 }
 .portfolio__btn {
+   background-color: transparent;
+   border: none;
+   font-weight: 600;
+   font-size: 12px;
+   letter-spacing: 2px;
+   line-height: 24px;
+   color: $title;
+   padding: 0 4px 5px;
+   margin-right: 25px;
+   border: 1px solid transparent;
+   cursor: pointer;
+}
+.mixitup-control-active{
+   border-bottom: 1px solid $yellow;
 }
 .portfolio__content {
    column-count: 4;
    column-gap: 22px;
+   margin-bottom: 72px;
 }
 .portfolio__item{
-   margin-bottom: 22px;
+   margin-top: 22px;
+   position: relative;
+}
+.portfolio__item:first-child{
+   margin-top: 0;
+}
+.portfolio__item-link{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   color: #fff;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 14px;
+   letter-spacing: 1.4px;
+   border: 12px solid $text;
+   background-color: $title;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0;
+   transition: opacity .3s linear;
+}
+.portfolio__item-link:hover{
+   opacity: 0.9;
 }
 .portfolio__item img{
    width: 100%;
@@ -234,12 +277,12 @@ body{
    text-transform: uppercase;
    color: $title;
    background-color: $bg;
-   padding: 42px 15px 41px;
+   padding: 42px 15px;
 }
 .blockquote {
-   padding: 130px 0 230px;
+   padding: 130px 0;
    max-width: 650px;
-   margin: 0 auto 148px;
+   margin: 0 auto;
    text-align: center;
    font-style: italic;
    font-weight: 300;

@@ -11,6 +11,7 @@
    <link
       href="https://fonts.googleapis.com/css2?family=Aclonica&family=Montserrat:wght@400;500;700&family=Open+Sans:wght@300;400;600&family=Raleway:wght@700&family=Roboto:wght@700&display=swap"
       rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -155,41 +156,50 @@
          <div class="portfolio__top">
             <h2 class="title">Portfolio</h2>
             <div class="porfolio__filter-btn">
-               <button class="portfolio__btn">ALL</button>
-               <button class="portfolio__btn">BRANDING</button>
-               <button class="portfolio__btn">DESIGN</button>
-               <button class="portfolio__btn">PHOTOGRAPHY</button>
-               <button class="portfolio__btn">ILLUSTRATION</button>
+               <button class="portfolio__btn" data-filter="all">ALL</button>
+               <button class="portfolio__btn" data-filter=".category-b">BRANDING</button>
+               <button class="portfolio__btn" data-filter=".category-c">DESIGN</button>
+               <button class="portfolio__btn" data-filter=".category-d">PHOTOGRAPHY</button>
+               <button class="portfolio__btn" data-filter=".category-a">ILLUSTRATION</button>
             </div>
          </div>
       </div>
       <div class="portfolio__content">
-         <div class="portfolio__item">
+         <div class="portfolio__item mix category-a">
             <img src="images/portfolio/1.jpg" alt="portfolio images">
+            <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
          </div>
-         <div class="portfolio__item">
+         <div class="portfolio__item mix category-a">
             <img src="images/portfolio/2.jpg" alt="portfolio images">
+            <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
          </div>
-         <div class="portfolio__item">
+         <div class="portfolio__item mix category-b">
             <img src="images/portfolio/3.jpg" alt="portfolio images">
+            <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
          </div>
-         <div class="portfolio__item">
+         <div class="portfolio__item mix category-b">
             <img src="images/portfolio/4.jpg" alt="portfolio images">
+            <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
          </div>
-         <div class="portfolio__item">
+         <div class="portfolio__item mix category-b">
             <img src="images/portfolio/5.jpg" alt="portfolio images">
+            <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
          </div>
-         <div class="portfolio__item">
+         <div class="portfolio__item mix category-c">
             <img src="images/portfolio/6.jpg" alt="portfolio images">
+            <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
          </div>
-         <div class="portfolio__item">
+         <div class="portfolio__item mix category-c">
             <img src="images/portfolio/7.jpg" alt="portfolio images">
+            <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
          </div>
-         <div class="portfolio__item">
+         <div class="portfolio__item mix category-c">
             <img src="images/portfolio/8.jpg" alt="portfolio images">
+            <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
          </div>
-         <div class="portfolio__item">
+         <div class="portfolio__item mix category-d">
             <img src="images/portfolio/9.jpg" alt="portfolio images">
+            <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
          </div>
       </div>
       <a href="#" class="portfolio__add">VIEW MORE PROJECTS</a>
@@ -198,7 +208,7 @@
          <span class="blockquote__author">Крис Броган</span>
       </blockquote>
       <div class="portfolio__video">
-         <a href="#" class="portfolio__video-link">
+         <a href="https://www.youtube.com/watch?v=BBOmggLtMuk" data-fancybox class="portfolio__video-link">
             <img src="images/portfolio/play.svg" alt="play icon">
          </a>
       </div>
@@ -231,7 +241,9 @@
 
 
 
-
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+   <script src="js/mixitup.min.js"></script>
    <script src="js/main.min.js"></script>
 </body>
 
