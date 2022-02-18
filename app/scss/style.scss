@@ -328,3 +328,29 @@ body{
    color: #333;
    display: block;
 }
+
+.slider-blog {
+   background-color: $bg;
+   padding: 115px 0;
+}
+.slider-blog__inner {
+}
+.slider-blog__item {
+   padding: 190px 0;
+}
+.slider-blog__item-link {
+}
+.slider-blog__item-title {
+   font-weight: bold;
+   line-height: 52px;
+   font-size: 36px;
+   color: $title;
+   margin-bottom: 10px;
+   max-width: 675px;
+}
+.slider-blog__item-descr {
+   font-family: 'Aclonica', sans-serif;
+   font-weight: normal;
+   line-height: 24px;
+   max-width: 585;
+}
