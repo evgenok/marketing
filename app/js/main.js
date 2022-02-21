@@ -5,6 +5,12 @@ $(function() {
       nextArrow: '<button type="button" class="slick-next"><img src="images/portfolio/arrow-right.svg"></button>'
    });
 
-    var mixer = mixitup('.portfolio__content');
+   
+
+    $('.menu-btn').on('click', function(){
+       $('.menu__list').toggleClass('menu__list--active');
+    });
+
+   var mixer = mixitup('.portfolio__content');
 
 });

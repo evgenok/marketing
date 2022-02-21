@@ -18,6 +18,9 @@ body{
    justify-content: space-between;
    align-items: flex-end;
 } 
+.menu-btn{
+   display: none;
+}
 .menu__list {
    display: flex;
 }
@@ -333,12 +336,8 @@ body{
    background-color: $bg;
    padding: 115px 0;
 }
-.slider-blog__inner {
-}
 .slider-blog__item {
    padding: 190px 0;
-}
-.slider-blog__item-link {
 }
 .slider-blog__item-title {
    font-weight: bold;
@@ -554,3 +553,5 @@ ul.footer__social {
    background-color: #2A2C2B;
    color: #ccc;
 }
+
+@import 'media';
