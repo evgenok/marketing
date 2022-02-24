@@ -40,6 +40,9 @@
    .about__text p {
       max-width: 100%;
    }
+   .header__top-inner{
+      padding-bottom: 5px;
+   }
    .title {
       font-size: 48px;
       line-height: 65px;
@@ -134,7 +137,7 @@
       position: absolute;
       left: 0;
       right: 0;
-      top: 90px;
+      top: 69px;
       background-color: $bg;
       text-align: center;
       transform: translateY(-200%);

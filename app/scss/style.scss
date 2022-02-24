@@ -29,7 +29,6 @@ body{
    &:first-child{
       margin-left: 0;
    }
-   
 }
 .menu__lisk-link {
    padding: 0 9px 9px;
@@ -45,7 +44,12 @@ body{
       border-bottom: 1px solid $yellow;
    }
 }
-
+.header__top{
+   position: sticky;
+   top: 0;
+   background-color: $bg;
+   z-index: 111;
+}
 .header__content {
    background: url('../images/header/Header-bg.jpg') no-repeat center;
    background-size: cover;
